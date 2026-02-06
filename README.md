@@ -2,7 +2,7 @@
   <img src="vitafrica.png" alt="VitAfrica Logo" width="200">
 </p>
 
-# <span style="color:#04045e">VitAfrica — Hospital Management System</span>
+# <span style="color:#04045e">VitAfrica </br> Hospital Management System</span>
 
 <div align="center">
   <strong>Minimum Viable Product (MVP)</strong>
@@ -39,24 +39,21 @@ The healthcare sector in target regions faces critical challenges that VitAfrica
 The project is organized as a monorepo to maintain consistency across the stack:
 
 ```text
-📂 vitafrica-workspace
- ┣ 📂 backend-api          # Spring Boot REST API (Java)
- ┃ ┣ 📂 src/main/java      # Core Logic, Security, Persistence
- ┃ ┗ 📜 pom.xml
- ┣ 📂 frontend-web         # Admin/Doctor Web Interface
- ┃ ┗ 📜 package.json
- ┣ 📂 frontend-mobile      # Patient Mobile Application
- ┃ ┗ 📜 package.json
- ┗ 📜 README.md
-
+vitafrica-workspace
+├── main                  # Production branch (Stable)
+│   └── develop           # Integration branch (Source for features)
+│       ├── backend-api   # Spring Boot REST API (Java)
+│       ├── frontend-web  # Admin/Doctor Web Interface
+│       └── frontend-mobile # Patient Mobile Application
+└── README.md             # Root documentation
 ```
 
 ### <span style="color:#04045e">Technical Specifications</span>
 
 * **Backend**: Spring Boot Framework (Spring Security, JPA/Hibernate).
-* **Frontend Web**: Modern JavaScript Framework (React/Angular).
-* **Mobile**: Cross-platform development.
-* **Database**: Secure Relational Database Management System (PostgreSQL).
+* **Frontend Web**: Modern JavaScript Framework (React).
+* **Mobile**: Flutter.
+* **Database**: Secure Relational Database Management System (MySQL).
 
 ---
 
